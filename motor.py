@@ -82,6 +82,8 @@ class Juego():
 			print("{}, {}".format(jugador.nombre,jugador.puntos))
 			print("")
 			sleep(0.5)
+		print("La meta es {}!".format(self.meta))
+		sleep(0.5)
 		print("Es el turno de {}".format(jugador.nombre))
 		sleep(0.5)
 
